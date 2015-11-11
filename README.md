@@ -4,7 +4,7 @@
 
 In this lab we will calculate the first derivative of discrete data. Consider that you have *N* equidistant grid points at positions *x_i, i = 0,...,N-1*, where *x_{i+1} - x_i = dx*. Let *f_i* denote the data values *f(x_i)*.
 
-* Write a C++ program that fills a double array of length *N=100* with data values *f(x_i) = exp(-x_i^2)*, where *x_0* *= -15, * *x_{N-1}* * = 15*.
+* Write a C++ program that fills a double array of length *N=100* with data values *f(x_i) = exp(-x_i^2)*, where *x_0= -15, x_{N-1} = 15*.
    * Fill the values into the array inside a function
 
 * Calculate the first derivative at all *N* positions using the    approximation
